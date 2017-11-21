@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bayir 后台管理系统</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="warp">
+        <div class="header" onselectstart="return false">
+            <span class="logo">
+                <a class="logo-go goback" href="index.html">后台管理系统</a>
+                <a class="logo-go goblog" href="">返回主页</a>
+            </span>
+            <span class="logout">
+                <a id="user" class="user">Admin</a>
+                <div id="user-set" class="userSet">
+                    <ul>
+                        <li><a>个人信息</a></li>
+                        <li><a>帐号修改</a></li>
+                    </ul>
+                </div>
+                <a href="">退出</a>
+            </span>
+        </div>
+        <div class="content">
+            <div class="sidebar">
+                <ul>
+                    <li></li>
+                    <li><a href="index.html">信息总览</a></li>
+                    <li><a href="article.html">文章管理</a></li>
+                    <li><a href="pages.html">页面管理</a></li>
+                    <li><a href="comments.html">评论管理</a></li>
+                    <li><a href="setting.html">系统设置</a></li>
+                </ul>
+            </div>
+            <div class="main">
+                <div class="overview addset fl">
+                    <div class="overview-title">常规设置</div>
+                    <div class="add-box">
+                        <h2>站点标题</h2>
+                        <input type="text" name="">
+                    </div>
+                    <div class="add-box">
+                        <h2>副标题</h2>
+                        <input type="text" name="">
+                    </div>
+                    <div class="add-box">
+                        <h2>站点地址(URL)</h2>
+                        <input type="text" name="">
+                    </div>
+                    <div class="add-box">
+                        <h2>站点关键字</h2>
+                        <input type="text" name="">
+                    </div>
+                    <div class="add-box">
+                        <h2>站点描述</h2>
+                        <input type="text" name="">
+                    </div>
+                </div>
+                <div class="overview addset fl">
+                    <div class="overview-title">站点</div>
+                    <div class="add-box">
+                        <h2>电子邮箱</h2>
+                        <input type="text" name="">
+                    </div>
+                    <div class="add-box">
+                        <h2>IPC备案号</h2>
+                        <input type="text" name="">
+                    </div>
+                    <div class="add-box">
+                        <h2>保存</h2>
+                        <button class="add-box-save fr" type="submit">保存</button>
+                    </div>
+                </div>      
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

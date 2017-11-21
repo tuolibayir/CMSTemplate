@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bayir 后台管理系统</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="warp">
+        <div class="header" onselectstart="return false">
+            <span class="logo">
+                <a class="logo-go goback" href="index.html">后台管理系统</a>
+                <a class="logo-go goblog" href="">返回主页</a>
+            </span>
+            <span class="logout">
+                <a id="user" class="user">Admin</a>
+                <div id="user-set" class="userSet">
+                    <ul>
+                        <li><a>个人信息</a></li>
+                        <li><a>帐号修改</a></li>
+                    </ul>
+                </div>
+                <a href="">退出</a>
+            </span>
+        </div>
+        <div class="content">
+            <div class="sidebar">
+                <ul>
+                    <li></li>
+                    <li><a href="index.html">信息总览</a></li>
+                    <li><a href="article.html">文章管理</a></li>
+                    <li><a href="pages.html">页面管理</a></li>
+                    <li><a href="comments.html">评论管理</a></li>
+                    <li><a href="setting.html">系统设置</a></li>
+                </ul>
+            </div>
+            <div class="main">
+                <div class="overview addset fl">
+                    <div class="overview-title">写文章</div>
+                    <div class="add-box">
+                        <h2>文章标题</h2>
+                        <input type="text" name="">
+                    </div>
+                    <div class="add-box-article">
+                        <h2>文章内容</h2>
+                        <textarea></textarea>
+                    </div>
+                    <div class="add-box">
+                        <h2>文章关键字</h2>
+                        <input type="text" name="">
+                    </div>
+                    <div class="add-box">
+                        <h2>描述</h2>
+                        <input type="text" name="">
+                    </div>
+                </div>
+                <div class="overview addset fl">
+                    <div class="overview-title">操作</div>
+                    <div class="add-box">
+                        <h2>标签</h2>
+                        <input type="text" name="">
+                    </div>
+                    <div class="add-box">
+                        <h2>标题图片</h2>
+                        <input type="text" name="">
+                    </div>
+                    <div class="add-box">
+                        <h2>发布</h2>
+                        <button class="add-box-save" type="submit">发布</button>
+                    </div>
+                </div>      
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

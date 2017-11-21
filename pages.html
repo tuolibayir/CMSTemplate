@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bayir 后台管理系统</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="warp">
+        <!-- 页眉 -->
+        <div class="header" onselectstart="return false">
+            <span class="logo">
+                <a class="logo-go goback" href="index.html">后台管理系统</a>
+                <a class="logo-go goblog" href="">返回主页</a>
+            </span>
+            <span class="logout">
+                <a id="user" class="user">Admin</a>
+                <div id="user-set" class="userSet">
+                    <ul>
+                        <li><a>个人信息</a></li>
+                        <li><a>帐号修改</a></li>
+                    </ul>
+                </div>
+                <a href="">退出</a>
+            </span>
+        </div>
+        <!-- 主体 -->
+        <div class="content">
+            <!-- 左侧边栏 -->
+            <div class="sidebar">
+                <ul>
+                    <li></li>
+                    <li><a href="index.html">信息总览</a></li>
+                    <li><a href="article.html">文章管理</a></li>
+                    <li><a href="pages.html">页面管理</a></li>
+                    <li><a href="comments.html">评论管理</a></li>
+                    <li><a href="setting.html">系统设置</a></li>
+                </ul>
+            </div>
+            <!-- 右侧主要内容区 -->
+            <div class="main">
+                <div class="overview">
+                    <div class="overview-title">添加页面</div>
+                    <div class="overview-info">
+                        <div class="addPages">
+                            <a href="add-page.html">新增页面</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="overview">
+                    <div class="overview-title">页面管理</div>
+                    <div class="pageslist">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>ID</td>
+                                    <td>页面</td>
+                                    <td>别名</td>
+                                    <td>总数</td>
+    
+                                    <td>操作</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>前端技术</td>
+                                    <td>web</td>
+                                    <td>0</td>
+                                    <td>修改删除</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>程序人生</td>
+                                    <td>life</td>
+                                    <td>0</td> 
+                                    <td>修改删除</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>人工智能</td>
+                                    <td>ai</td>
+                                    <td>0</td>
+                                    <td>修改删除</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>文学艺术</td>
+                                    <td>art</td>
+                                    <td>0</td>
+                                    <td>修改删除</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>关于</td>
+                                    <td>code</td>
+                                    <td>0</td>
+                                    <td>修改删除</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
