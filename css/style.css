@@ -273,6 +273,9 @@ li{
     margin-top: 20px;
     margin-left: 40px;
 }
+.login-title h1{
+    font-weight: normal;
+}
 .login-form{
     margin-top: 10px;
     margin-left: 40px;
